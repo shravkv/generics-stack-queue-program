@@ -1,27 +1,15 @@
 import java.util.LinkedList;
 
 public class FunctionClass {
-    LinkedList<Integer> stack = new LinkedList<>();
+    LinkedList<Integer> queue = new LinkedList<>();
 
-    public void insert(int data) {
-        stack.addFirst(data);
+    public void enQueue(int data) {
+        queue.add(data);
+
     }
-
-    public void peek() {
-        System.out.println("stack list in the peek is :" + stack.peek());
-    }
-
-    public void pop() {
-        if (stack.size() == 0) {
-            System.out.println("List is empty");
-        } else {
-            stack.pop();
-        }
-    }
-
     public void toPrint() {
         System.out.println("Stack list is :");
-        for (Integer i : stack) {
+        for (Integer i : queue) {
             System.out.println(" " + i);
         }
     }
