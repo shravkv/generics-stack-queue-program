@@ -9,5 +9,17 @@ public class StackAndQueueList {
         functionClass.insert(30);
         functionClass.insert(56);
         functionClass.toPrint();
+        functionClass.peek();
+        functionClass.pop();
+        functionClass.toPrint();
+        functionClass.peek();
+        functionClass.pop();
+        functionClass.toPrint();
+        functionClass.peek();
+        functionClass.pop();
+        functionClass.toPrint();
+        functionClass.peek();
+        functionClass.pop();
+
     }
 }
