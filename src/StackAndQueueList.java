@@ -9,5 +9,12 @@ public class StackAndQueueList {
         functionClass.enQueue(30);
         functionClass.enQueue(70);
         functionClass.toPrint();
+        functionClass.deQueue();
+        functionClass.toPrint();
+        functionClass.deQueue();
+        functionClass.toPrint();
+        functionClass.deQueue();
+        functionClass.toPrint();
+        functionClass.deQueue();
     }
 }
